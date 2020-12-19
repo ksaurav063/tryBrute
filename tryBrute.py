@@ -4,7 +4,7 @@ cattern.cattrn('tryBrute')
 
 def menu(i):
     switch = {
-        1 : "1. You didn't need session" ,
+        1 : "1. You don't need session" ,
         2 : "2. You need a session"
     }
     return switch.get(i, 'invalid input')
